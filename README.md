@@ -27,6 +27,7 @@ We don't expect you to be an expert designer, but we want to see if you're comfo
 ## What will be evaluated?
 
 - Clean, robust and well-organized code (JavaScript and CSS)
+- Compliance with guidelines
 - Page layout and relevance of UX decision
 - Friendly user interface
 
