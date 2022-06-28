@@ -1,213 +1,262 @@
-{
-  "id": 0,
-  "name": "root",
-  "children": [
-    {
-      "id": 13,
-      "name": "Brands",
-      "children": [
-        {
-          "id": 4,
-          "name": "Industry #1",
-          "children": [
-            {
-              "id": 1,
-              "name": "aspernatur sapiente corrupti",
-              "children": []
-            },
-            {
-              "id": 2,
-              "name": "quo sit perspiciatis",
-              "children": []
-            },
-            {
-              "id": 3,
-              "name": "praesentium saepe necessitatibus",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "name": "Industry #2",
-          "children": [
-            {
-              "id": 5,
-              "name": "nobis sit occaecati",
-              "children": []
-            },
-            {
-              "id": 6,
-              "name": "fugit dolorum sed",
-              "children": []
-            },
-            {
-              "id": 7,
-              "name": "est voluptatem deleniti",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 12,
-          "name": "Industry #3",
-          "children": [
-            {
-              "id": 9,
-              "name": "impedit eos sint",
-              "children": []
-            },
-            {
-              "id": 10,
-              "name": "cupiditate in omnis",
-              "children": []
-            },
-            {
-              "id": 11,
-              "name": "blanditiis in deleniti",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 26,
-      "name": "Products",
-      "children": [
-        {
-          "id": 17,
-          "name": "Typology #1",
-          "children": [
-            {
-              "id": 14,
-              "name": "eaque iusto aliquid",
-              "children": []
-            },
-            {
-              "id": 15,
-              "name": "quidem aliquid velit",
-              "children": []
-            },
-            {
-              "id": 16,
-              "name": "nihil amet quas",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 21,
-          "name": "Typology #2",
-          "children": [
-            {
-              "id": 18,
-              "name": "eveniet eaque doloremque",
-              "children": []
-            },
-            {
-              "id": 19,
-              "name": "ea occaecati cupiditate",
-              "children": []
-            },
-            {
-              "id": 20,
-              "name": "consectetur sint est",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 25,
-          "name": "Typology #3",
-          "children": [
-            {
-              "id": 22,
-              "name": "in quia alias",
-              "children": []
-            },
-            {
-              "id": 23,
-              "name": "ratione repellat aut",
-              "children": []
-            },
-            {
-              "id": 24,
-              "name": "nemo earum ullam",
-              "children": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 39,
-      "name": "Others",
-      "children": [
-        {
-          "id": 30,
-          "name": "Category #1",
-          "children": [
-            {
-              "id": 27,
-              "name": "odit esse vitae",
-              "children": []
-            },
-            {
-              "id": 28,
-              "name": "autem qui vel",
-              "children": []
-            },
-            {
-              "id": 29,
-              "name": "cumque ut id",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 34,
-          "name": "Category #2",
-          "children": [
-            {
-              "id": 31,
-              "name": "non inventore iure",
-              "children": []
-            },
-            {
-              "id": 32,
-              "name": "enim sit ea",
-              "children": []
-            },
-            {
-              "id": 33,
-              "name": "deleniti libero tenetur",
-              "children": []
-            }
-          ]
-        },
-        {
-          "id": 38,
-          "name": "Category #3",
-          "children": [
-            {
-              "id": 35,
-              "name": "optio vel eveniet",
-              "children": []
-            },
-            {
-              "id": 36,
-              "name": "harum et maxime",
-              "children": []
-            },
-            {
-              "id": 37,
-              "name": "reprehenderit illum consequatur",
-              "children": []
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 250162,
+    "name": "Products",
+    "nbKeywords": 11818,
+    "depth": 0,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      }
+    ]
+  },
+  {
+    "id": 250222,
+    "name": "Spread",
+    "nbKeywords": 6883,
+    "depth": 1,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      }
+    ]
+  },
+  {
+    "id": 250224,
+    "name": "Breakfast",
+    "nbKeywords": 257,
+    "depth": 1,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250224,
+        "name": "Breakfast"
+      }
+    ]
+  },
+  {
+    "id": 274714,
+    "name": "Chocolate candy and praline",
+    "nbKeywords": 451,
+    "depth": 1,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 274714,
+        "name": "Chocolate candy and praline"
+      }
+    ]
+  },
+  {
+    "id": 250301,
+    "name": "Honey",
+    "nbKeywords": 57,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 250301,
+        "name": "Honey"
+      }
+    ]
+  },
+  {
+    "id": 250303,
+    "name": "Breakfast bread",
+    "nbKeywords": 119,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250224,
+        "name": "Breakfast"
+      },
+      {
+        "id": 250303,
+        "name": "Breakfast bread"
+      }
+    ]
+  },
+  {
+    "id": 250328,
+    "name": "Butter",
+    "nbKeywords": 168,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 250328,
+        "name": "Butter"
+      }
+    ]
+  },
+  {
+    "id": 250332,
+    "name": "Breakfast cereal",
+    "nbKeywords": 138,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250224,
+        "name": "Breakfast"
+      },
+      {
+        "id": 250332,
+        "name": "Breakfast cereal"
+      }
+    ]
+  },
+  {
+    "id": 250333,
+    "name": "Other nuts spread",
+    "nbKeywords": 3845,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 250333,
+        "name": "Other nuts spread"
+      }
+    ]
+  },
+  {
+    "id": 250378,
+    "name": "Jam",
+    "nbKeywords": 63,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 250378,
+        "name": "Jam"
+      }
+    ]
+  },
+  {
+    "id": 274734,
+    "name": "Praline",
+    "nbKeywords": 246,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 274714,
+        "name": "Chocolate candy and praline"
+      },
+      {
+        "id": 274734,
+        "name": "Praline"
+      }
+    ]
+  },
+  {
+    "id": 274736,
+    "name": "Chocolate candy",
+    "nbKeywords": 205,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 274714,
+        "name": "Chocolate candy and praline"
+      },
+      {
+        "id": 274736,
+        "name": "Chocolate candy"
+      }
+    ]
+  },
+  {
+    "id": 253921,
+    "name": "Yeast extract",
+    "nbKeywords": 51,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 253921,
+        "name": "Yeast extract"
+      }
+    ]
+  },
+  {
+    "id": 258361,
+    "name": "Hazelnut & cocoa spread",
+    "nbKeywords": 2699,
+    "depth": 2,
+    "ancestors": [
+      {
+        "id": 250162,
+        "name": "Products"
+      },
+      {
+        "id": 250222,
+        "name": "Spread"
+      },
+      {
+        "id": 258361,
+        "name": "Hazelnut & cocoa spread"
+      }
+    ]
+  }
+]
