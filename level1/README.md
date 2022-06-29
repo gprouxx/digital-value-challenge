@@ -10,4 +10,4 @@ We want to display the evolution of the search volume of the previous 48 months 
 
 The API `GET /api/volumes/250162.json` returns the sum of the search volume per month for all the keywords monitored.
 
-Then go to [next level](https://github.com/digital-value-apps/frontend-challenge/tree/master/level2)
+Then go to [next level](../level2)

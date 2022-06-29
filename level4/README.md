@@ -9,4 +9,4 @@ However, even if the authentication is faked, we would like to see how the appli
 
 We would like to see if you're aware of the best practice of designing a secured authentication system.
 
-Then go to [next level](https://github.com/digital-value-apps/frontend-challenge/tree/master/level5) (optional)
+Then go to [next level](../level5) (optional)

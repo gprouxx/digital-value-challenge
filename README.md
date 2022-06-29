@@ -31,4 +31,4 @@ We don't expect you to be an expert designer, but we want to see if you're comfo
 - Page layout and relevance of UX decision
 - Friendly user interface
 
-Let's get started! Go to [First level](https://github.com/digital-value-apps/frontend-challenge/tree/master/level1)
+Let's get started! Go to [First level](level1)
