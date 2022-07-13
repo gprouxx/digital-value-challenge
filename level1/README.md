@@ -6,7 +6,7 @@ The metric observed is the volume of searches in Google for a given list of keyw
 
 # Level 1 - Fetch and display data
 
-We want to display the evolution of the search volume of the previous 48 months for the top-level category in a nice graph. We would be able to change the selected period to navigate into the data.
+We want to display in a nice graph the evolution of the search volume over the last 24 months of available data for the top-level category. We would be able to change the selected period to navigate into the data.
 
 The API `GET /api/volumes/250162.json` returns the sum of the search volume per month for all the keywords monitored.
 
