@@ -12,7 +12,7 @@ We don't expect you to be an expert designer, but we want to see if you're comfo
 
 ## Guidelines
 
-- Clone the repo
+- Clone the repo (do not fork it) and work on top of it
 - Implement each level in ascending order (last two levels are optional)
 - Commit at the end of each level
 - Provide instructions to run each level of the challenge
@@ -21,6 +21,7 @@ We don't expect you to be an expert designer, but we want to see if you're comfo
 ## Rules
 
 - Angular is preferred but React or Vue.js is also accepted
+- Functional reactive programming is encouraged
 - Use version control to deliver the test
 - You can use any libs (JavaScript and CSS)
 
