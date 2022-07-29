@@ -30,6 +30,20 @@
               label="Date de début"
               outlined
           />
+          <div v-if="isCalculationsPossible()">
+            <div>
+              Moyenne de la période : {{ averagePeriod() }}
+            </div>
+            <div>
+              Moyenne de l'année précédente : {{ average1YearBefore() }}
+            </div>
+            <div>
+              Variation par rapport à l'année précédente : {{ variation() }}
+            </div>
+          </div>
+          <div v-else>
+            Sélectionnez une période plus proche de nos jours pour pouvoir la comparer avec l'année précédente.
+          </div>
         </div>
       </v-card-text>
     </v-card>
@@ -53,6 +67,7 @@ import v274734 from '../../api/volumes/274734.json'
 import v274736 from '../../api/volumes/274736.json'
 import categories from '../../api/categories.json'
 import {formatDate, dateIsBeforeOrEquals} from '@/utils/date'
+import parseISO from "date-fns/parseISO";
 
 /*
 Instructions:
@@ -63,6 +78,11 @@ export default {
   name: 'Volumes',
   data() {
     return {
+      radius: 10,
+      gradientDirection: 'top',
+      fill: false,
+      type: 'trend',
+      autoLineWidth: false,
       startDate: null,
       dates: null,
       volumes: null,
@@ -122,6 +142,23 @@ export default {
     updateDates () {
       this.dates = this.volumes.map(v => v.date).slice(0, this.volumes.length - 23)
       this.startDate = this.dates[this.dates.length - 1]
+    },
+    isCalculationsPossible () {
+      let firstDate = parseISO(this.dates[0])
+      firstDate = new Date(firstDate.getFullYear() + 1, firstDate.getMonth(), firstDate.getDay())
+      return dateIsBeforeOrEquals(firstDate, this.startDate)
+    },
+    averagePeriod () {
+      return Math.round(this.selectedVolumes.reduce((acc, v) => acc + v.volume, 0) / this.selectedVolumes.length * 1000) / 1000
+    },
+    average1YearBefore () {
+      let startDate = parseISO(this.startDate)
+      let date1YearBefore = new Date(startDate.getFullYear() - 1, startDate.getMonth(), startDate.getDay())
+      let volumes1YearBefore = this.volumes.filter(v => dateIsBeforeOrEquals(date1YearBefore , v.date)).slice(0, 24)
+      return Math.round(volumes1YearBefore.reduce((acc, v) => acc + v.volume, 0) / volumes1YearBefore.length * 1000) / 1000
+    },
+    variation () {
+      return Math.round((this.averagePeriod() - this.average1YearBefore()) / this.average1YearBefore() * 10000) / 100 + ' %'
     }
   }
 }
